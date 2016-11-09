@@ -9,11 +9,7 @@ category: java
 status: publish
 summary: 看 java 代码的时候看到了一个default关键字，有点眼生，特地去查了一波，特此记录
 -->
-# java 8 Default 关键字
 
-标签（空格分隔）： java学习
----
-[TOC]
 # 起因
 在看 java8 集合框架的时候，在``` Iterable<T> ```接口里看到了看下了下面一段
 ```java
@@ -123,7 +119,7 @@ B is running
 # 个人总结
 为了给实现给java的接口弄默认的方法，java里面有很多乱七八糟的抽象类，嗯。。。 不优雅，有了```default```之后似乎优雅多了，挺好。然后接口里的方法也可以用```static```修饰了，恩。。。 也挺好。
 
-
+转载请注明出处，[原文链接](http://huanshaxiaozhu.me/blog/java-default-keyword.html)
 
 
   [1]: http://static.zybuluo.com/SeanWu/a0erfu9u9yx2fjfo7ky8w29e/image_1b14k8de91nrn39p10fp1sl0qnf9.png
