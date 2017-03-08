@@ -22,9 +22,9 @@ public class HeapOOM {
     }
     public static void main(String[] args) {
 
-        List<TestModel2> list = new ArrayList<>();
+        List<TestModel> list = new ArrayList<>();
         while (true){
-            list.add(new TestModel2());
+            list.add(new TestModel());
         }
     }
 }
